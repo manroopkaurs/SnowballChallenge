@@ -27,7 +27,8 @@ nav .logo2 {
 }
 
 nav .logo1 {
-  width: 50%;
+display: flex; 
+ width: 50%;
   height: 100%
 }
 
@@ -51,6 +52,8 @@ nav .logo1 a {
 }
 
 nav .links {
+	display: flex; 
+flex-direction: row;
   width: 50%;
   padding: 0;
   margin: 0;
