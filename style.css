@@ -28,7 +28,7 @@ nav .logo2 {
 
 nav .logo1 {
   display: flex;
-  float: right;
+  float: left;
   width: 50%;
   padding: 0;
   margin: 0;
@@ -40,16 +40,14 @@ max-height: 100%;
 }
 
 nav .logo1 img {
-  width: 5%;
-  height: 7%;
-  position: absolute;
-  float: left;
+  width: auto;
+  height: auto;
 }
 
 nav .logo1 a {
 display: block; 
   color: #000;
-padding: 2em;
+padding: 1em;
   font-size: 25px;
   font-weight: bold;
   letter-spacing: 2px;
