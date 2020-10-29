@@ -35,8 +35,6 @@ display: flex;
 nav .logo1 img {
   width: 5%;
   height: 7%;
-  position: absolute;
-  float: left;
 }
 
 nav .logo1 a {
