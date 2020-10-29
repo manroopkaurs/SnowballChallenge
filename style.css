@@ -134,7 +134,7 @@ nav .icon-burger .line {
 
 h1 {
   color: #000;
-  font-size: 25px;
+  font-size: 10px;
   line-height: 0.5em;
   font-weight: bold;
   letter-spacing: 5px;
@@ -202,6 +202,7 @@ h3 {
   text-decoration: 1px underline;
   text-decoration-color: #fff;
 }
+
 .leftbox{
   width: 33.33%;
   align-content: center;
