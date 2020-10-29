@@ -27,27 +27,27 @@ nav .logo2 {
 }
 
 nav .logo1 {
-  width: 50%;
-  height: 100%;
   display: flex;
   float: left;
+  width: 50%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  text-align: center;
 }
 
-/*nav .logo1 img {
-  width: 5%;
-  height: 7%;
-  position: absolute;
-  float: left;
-}*/
+ nav .logo1 img {
+  width: 10%;
+  height: 100%;
+}
 
 nav .logo1 a {
-  color: #000;
+
   font-size: 25px;
-  font-weight: bold;
-  height: 60px;
-  max-height: 60px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
+  padding: 0.75em;
+  letter-spacing: 4px;
+  word-spacing: 4px;
   text-transform: uppercase;
   align-items: center;
 }
@@ -56,9 +56,9 @@ nav .links {
   display: flex;
   float: right;
   width: 50%;
+  height: 100%;
   padding: 0;
   margin: 0;
-  height: 100%;
   justify-content: space-around;
   align-items: center;
   text-align: center;
@@ -68,19 +68,16 @@ nav .links li {
   list-style: none;
 }
 
-nav .links a{
+nav a{
   color: #000;
   display: block;
-  padding: 2em;
+  padding: 1em;
   font-size: 20px;
   font-weight: bold;
   transition: all ease 0.5s;
-  }
-
-a {
   text-decoration: none;
-  color: black;
 }
+
 nav a:visited {
   color: #000;
 }
@@ -90,7 +87,6 @@ nav a:hover{
 text-decoration: underline;
   background-color: #984736;
   border-radius: 50px;
-
 }
 
 #nav-toggle {
@@ -119,15 +115,7 @@ nav .icon-burger .line {
   width: 100vw;
   height: 100%;
 }
-p{
-  padding-top: 1%;
-  font-size: 20px;
-  letter-spacing: 0.5px;
-}
-h1{
-  text-decoration: 3px underline;
-  text-decoration-color: #E59866;
-}
+
 /*SHOWCASE*/
 #showcase {
   display: flex;
@@ -144,7 +132,7 @@ h1{
   align-items: center; /*vertical alignment*/
 }
 
-h2 {
+h1 {
   color: #000;
   font-size: 50px;
   line-height: 1em;
@@ -157,6 +145,19 @@ h2 {
   background-color: #E59866;
   border-radius: 50px;
   border: 35px solid #E59866;
+}
+
+/*ABOUT*/
+
+p{
+  padding-top: 1%;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+h2{
+  text-decoration: 3px underline;
+  text-decoration-color: #E59866;
 }
 
 /*OURIDEA*/
