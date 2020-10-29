@@ -134,10 +134,10 @@ nav .icon-burger .line {
 
 h1 {
   color: #000;
-  font-size: 50px;
+  font-size: 25px;
   line-height: 0.5em;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   text-transform: uppercase;
   justify-content: space-around;
   align-items: center;
@@ -192,8 +192,15 @@ h2{
   display: flex;
   margin-left: -21.5%;
 }
-.info p{
-  margin-top: 15%;
+/*.info p{
+  margin-top: 15%;*/
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: 1px underline;
+  text-decoration-color: #fff;
 }
 .leftbox{
   width: 33.33%;
@@ -241,7 +248,6 @@ h2{
   margin-top: 40%;
   width: 75%;
 }
-
 
 .manroop a{
   letter-spacing: 5px;
