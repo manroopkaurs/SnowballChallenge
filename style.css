@@ -53,6 +53,7 @@ nav .logo1 a {
 }
 
 nav .links {
+display: block;
   width: 50%;
   padding: 0;
   margin: 0;
