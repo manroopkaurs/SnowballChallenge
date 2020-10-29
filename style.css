@@ -1,8 +1,5 @@
-html{
-  scroll-behavior: smooth;
-}
-
 body{
+  scroll-behavior: smooth;
   margin: 0 auto;
   overflow-x: hidden;
   overflow-y: scroll;
