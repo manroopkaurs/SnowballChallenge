@@ -160,28 +160,10 @@ h2{
   text-decoration-color: #E59866;
 }
 
-/*OURIDEA*/
-#ouridea{
+/*CONTENT*/
+.content{
   height: inherit;
-  padding-top: 5%;
-  margin-left: 15%;
-  margin-right: 15%;
-  line-height: 3em;
-}
-
-/*WEBSITE DESIGN*/
-#design{
-  height: inherit;
-  padding-top: 5%;
-  margin-left: 15%;
-  margin-right: 15%;
-  line-height: 3em;
-}
-
-/*ABOUT US*/
-#about{
-  height: inherit;
-  padding-top: 5%;
+  padding-top: 2%;
   margin-left: 15%;
   margin-right: 15%;
   line-height: 3em;
