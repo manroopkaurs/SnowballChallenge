@@ -283,7 +283,7 @@ footer{
 }
   
 .logo2 {
- float: center;
+ /*float: center;*/
  width: auto;
  justify-content: center;
   }
@@ -299,7 +299,7 @@ footer{
 } 
   
  nav .logo2 img {
-  width: 10%;
+  width: 20%;
   height: 100%;
 }
 
@@ -408,7 +408,7 @@ h3 {
   
 .middlebox{
   width: 100%;
-  height: inherit;
+  height: 50%;
   align-content: center;
   text-align: center;
   align-self: center;
