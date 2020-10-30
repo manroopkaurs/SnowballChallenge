@@ -273,7 +273,7 @@ footer{
   color: #fff;
   text-align: center;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 800px){
@@ -388,7 +388,7 @@ h3 {
   color: #fff;
   font-size: 18px;
   font-weight: bold;
-  padding: 1em;
+  /*padding: 1em;*/
   text-decoration: underline;
   background-color: #984736;
   border-radius: 50px;
