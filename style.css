@@ -180,7 +180,7 @@ h3 {
   color: #fff;
   font-size: 18px;
   font-weight: bold;
-  padding: 1em;
+  padding: 0.5em;
   text-decoration: underline;
   background-color: #984736;
   border-radius: 50px;
@@ -217,6 +217,12 @@ h3 {
   background-color: #E59866;
   border-radius: 75px;
   margin-right: 1.5%;
+}
+
+.rightbox a{
+  color: #000;
+  text-decoration: none;
+  
 }
 
 .us{
