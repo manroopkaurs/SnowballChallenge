@@ -155,8 +155,7 @@ p{
 }
 
 h2{
-  color: red;
-  text-decoration: 3px underline;
+  text-decoration: line-through;
   text-decoration-color: #E59866;
 }
 
@@ -177,7 +176,7 @@ h2{
 }
 
 h3 {
-  width: 80%;
+  width: 90%;
   color: #fff;
   font-size: 18px;
   font-weight: bold;
@@ -188,6 +187,9 @@ h3 {
   text-transform: uppercase;
   text-decoration: 1px underline;
   text-decoration-color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
 
 .leftbox{
