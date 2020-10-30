@@ -183,7 +183,8 @@ h3 {
   padding: 0.25em;
   text-decoration: underline;
   background-color: #984736;
-  border-radius: 45px;
+  border-width: 90%;
+  border-radius: 50px;
   text-transform: uppercase;
   text-decoration: 1px underline;
   text-decoration-color: #fff;
@@ -201,6 +202,11 @@ h3 {
   margin-left: 1%;
   text-decoration: none;
 }
+
+.leftbox a{
+ text-decoration: none;
+}
+
 .leftbox img{
   width: 5%;
   height: 5%;
