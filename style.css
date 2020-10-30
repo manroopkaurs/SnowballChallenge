@@ -278,14 +278,14 @@ footer{
 
 @media screen and (max-width: 800px){
   
-  nav .logo1 {
+  .logo1 {
   display: none;
 }
   
-  nav .logo2 {
-      float: none;
-      width: auto;
-      justify-content: center;
+.logo2 {
+ float: center;
+ width: auto;
+ justify-content: center;
   }
 
  nav .logo2 a {
@@ -408,6 +408,7 @@ h3 {
   
 .middlebox{
   width: 100%;
+  height: inherit;
   align-content: center;
   text-align: center;
   align-self: center;
