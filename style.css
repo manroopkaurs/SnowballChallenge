@@ -155,6 +155,7 @@ p{
 }
 
 h2{
+  color: red;
   text-decoration: 3px underline;
   text-decoration-color: #E59866;
 }
@@ -272,13 +273,33 @@ footer{
 }
 
 @media screen and (max-width: 800px){
-  nav .logo {
+  
+  nav .logo1 {
+  display: none;
+}
+  
+  nav .logo2 {
       float: none;
       width: auto;
       justify-content: center;
       font-size: 14px;
-
   }
+
+ nav .logo2 img {
+  width: 10%;
+  height: 100%;
+}
+
+nav .logo2 a {
+  font-size: 25px;
+  padding: 0.75em;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  align-items: center;
+}
+  
+  
   nav .links {
       float: right;
       position: fixed;
@@ -326,10 +347,10 @@ footer{
   /*SHOWCASE*/
   h1 {
   color: #000;
-  font-size: 50px;
-  line-height: 1em;
+  font-size: 25px;
+  line-height: 0.5em;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   text-transform: uppercase;
   justify-content: space-around;
   align-items: center;
@@ -347,6 +368,7 @@ p{
 }
   
 h2{
+  color: red;
   text-decoration: 3px underline;
   text-decoration-color: #E59866;
 }
@@ -365,10 +387,21 @@ h2{
   height: inherit;
   align-content: center;
 }
-/*.info p{
-  margin-top: 5%;
-  padding-bottom: 10%;
-}*/
+  
+h3 {
+  width: 80%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0.25em;
+  text-decoration: underline;
+  background-color: #984736;
+  border-radius: 50px;
+  text-transform: uppercase;
+  text-decoration: 1px underline;
+  text-decoration-color: #fff;
+}
+
 .leftbox{
   width: 100%;
   align-content: center;
