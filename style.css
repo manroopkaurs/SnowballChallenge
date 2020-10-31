@@ -372,16 +372,17 @@ footer{
 }
 
   /*SHOWCASE*/
-  #showcase{
+  #showcase {
     display: flex;
-    margin: 0 auto;
+    margin: auto;
     padding-top: 10px;
     width: 100vw;
     height: 100vh;
-    background-image:url(images/showcase.jpg);
+    background-image: url(images/showcase.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     justify-content: center;
     align-items: center;
   }
