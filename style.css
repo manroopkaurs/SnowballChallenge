@@ -128,8 +128,8 @@ nav .icon-burger .line {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -311,7 +311,7 @@ footer{
       flex-direction: column;
       justify-content: space evenly;
       background-color: rgba(0,0,0,8);
-      opacity: 0;
+      opacity: 0.75;
       overflow: hidden;
       transition: all .5s ease-in-out;
 
