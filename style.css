@@ -206,6 +206,7 @@ h3 {
 .middlebox{
   width: 33.33%;
   align-content: center;
+  justify-content: flex-start;
   text-align: center;
   background-color: #E59866;
   border-radius: 75px;
@@ -333,7 +334,7 @@ footer{
     transform: translateY(-10px) rotate(-225deg);
   }
   nav :checked ~ .icon-burger .line:nth-child(2){
-      opacity: 2;
+      opacity: 0.8;
   }
 
 .container{
