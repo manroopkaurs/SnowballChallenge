@@ -120,14 +120,14 @@ nav .icon-burger .line {
 /*SHOWCASE*/
 #showcase {
   display: flex;
-  margin: auto;
+  margin: 0 auto;
   padding-top: 10px;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: url(images/showcase.jpg);
-  background-size: cover;
+  background-size: center;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-attachment: fixed;
   justify-content: center;
   align-items: center;
@@ -136,7 +136,7 @@ nav .icon-burger .line {
 h1 {
   color: #000;
   font-size: 25px;
-  line-height: 0.5em;
+  line-height: em;
   font-weight: bold;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -283,13 +283,25 @@ footer{
 }
 
 @media screen and (max-width: 800px){
+  html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body{
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    line-height: 1.4em;
+    font-family: 'Playfair Display', serif;
+    width: 100vw;
+  }
 
 .logo1 {
   display: none;
 }
 
 .logo2 {
- /*float: center;*/
  width: auto;
  justify-content: center;
   }
@@ -297,7 +309,7 @@ footer{
  nav .logo2 a {
   color: #000;
   font-size: 14px;
-  padding: 0.75em;
+  padding: 0.5em;
   letter-spacing: 4px;
   word-spacing: 4px;
   text-transform: uppercase;
@@ -345,11 +357,11 @@ footer{
   nav :checked ~ .icon-burger .line:nth-child(1){
       transform: translateY(10px) rotate(225deg);
   }
-  nav :checked ~ .icon-burger .line:nth-child(3){
-    transform: translateY(-10px) rotate(-225deg);
-  }
   nav :checked ~ .icon-burger .line:nth-child(2){
       opacity: 0.8;
+  }
+  nav :checked ~ .icon-burger .line:nth-child(3){
+    transform: translateY(-10px) rotate(-225deg);
   }
 
 .container{
@@ -358,6 +370,21 @@ footer{
 }
 
   /*SHOWCASE*/
+  #showcase{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 100vw;
+    height: 100vh;
+    background-image:url(images/showcase.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+  }
+
   h1 {
   color: #000;
   font-size: 25px;
@@ -376,6 +403,10 @@ footer{
 /*ABOUT*/
 p{
   letter-spacing: 0px;
+}
+
+h1{
+  line-height: inherit;
 }
 
 /*CONTENT*/
@@ -413,8 +444,7 @@ h3 {
 .middlebox{
   width: 100%;
   align-content: center;
-  text-align: center;
-  /*align-self: center;*/
+  text-align: center
   background-color: #E59866;
   border-radius: 75px;
   margin-right: 1%;
@@ -462,6 +492,14 @@ h3 {
   border: 10px solid #000;
   border-radius: 75px;
 
+}
+
+footer{
+  background: #333;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
 }
 
 
