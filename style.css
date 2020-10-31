@@ -120,12 +120,12 @@ nav .icon-burger .line {
 /*SHOWCASE*/
 #showcase {
   display: flex;
-  margin: 0 auto;
+  margin: auto;
   padding-top: 10px;
   width: 100vw;
   height: 100vh;
   background-image: url(images/showcase.jpg);
-  background-size: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -136,7 +136,7 @@ nav .icon-burger .line {
 h1 {
   color: #000;
   font-size: 25px;
-  line-height: em;
+  line-height: inherit;
   font-weight: bold;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -177,6 +177,7 @@ h2{
   margin-right: 15%;
   line-height: 3em;
 }
+
 
 .info{
   width: 100vw;
@@ -327,7 +328,7 @@ footer{
       z-index: 9;
       left: 0;
       right: 0;
-      top: 6%;
+      top: 8%;
       bottom: 100%;
       width: auto;
       height: auto;
@@ -358,7 +359,7 @@ footer{
       transform: translateY(10px) rotate(225deg);
   }
   nav :checked ~ .icon-burger .line:nth-child(2){
-      opacity: 0.8;
+      opacity: 0;
   }
   nav :checked ~ .icon-burger .line:nth-child(3){
     transform: translateY(-10px) rotate(-225deg);
