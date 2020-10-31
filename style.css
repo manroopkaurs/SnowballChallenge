@@ -206,10 +206,10 @@ h3 {
 .middlebox{
   width: 33.33%;
   align-content: center;
-  justify-content: flex-start;
   text-align: center;
   background-color: #E59866;
   border-radius: 75px;
+  padding-bottom: 20px;
   margin-right: 1%;
   margin-left: 1%;
 }
