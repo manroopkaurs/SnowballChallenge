@@ -176,17 +176,12 @@ h2{
 }
 
 h3 {
-  width: 90%;
   color: #fff;
   font-size: 18px;
   font-weight: bold;
   padding: 1em;
-  text-decoration: underline;
-  background-color: #984736;
-  border-radius: 50px;
   text-transform: uppercase;
   text-decoration: 1px underline;
-  text-decoration-color: #fff;
 }
 
 .leftbox{
