@@ -346,6 +346,7 @@ footer{
       }
   nav .links a:hover{
     color: #fff;
+    text-decoration: 3px underline;
     background-color: black;
   }
 
