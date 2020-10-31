@@ -1,6 +1,6 @@
-html{
+/*html{
   scroll-behavior: smooth;
-}
+}*/
 
 body{
   margin: 0 auto;
@@ -27,27 +27,27 @@ nav .logo2 {
 }
 
 nav .logo1 {
-  width: 50%;
-  height: 100%
   display: flex;
   float: left;
+  width: 50%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  text-align: center;
 }
 
-nav .logo1 img {
-  width: 5%;
-  height: 7%;
-  position: absolute;
-  float: left;
+ nav .logo1 img {
+  width: 10%;
+  height: 100%;
 }
 
 nav .logo1 a {
-  color: #000;
+
   font-size: 25px;
-  font-weight: bold;
-  height: 60px;
-  max-height: 60px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
+  padding: 0.75em;
+  letter-spacing: 4px;
+  word-spacing: 4px;
   text-transform: uppercase;
   align-items: center;
 }
@@ -56,9 +56,9 @@ nav .links {
   display: flex;
   float: right;
   width: 50%;
+  height: 100%;
   padding: 0;
   margin: 0;
-  height: 100%;
   justify-content: space-around;
   align-items: center;
   text-align: center;
@@ -68,29 +68,25 @@ nav .links li {
   list-style: none;
 }
 
-nav .links a{
+nav a{
   color: #000;
   display: block;
-  padding: 2em;
+  padding: 1em;
   font-size: 20px;
   font-weight: bold;
   transition: all ease 0.5s;
-  }
-
-a {
   text-decoration: none;
-  color: black;
 }
+
 nav a:visited {
   color: #000;
 }
 
-nav .links a:hover{
+nav a:hover{
   color: #fff;
-	text-decoration: underline;
+text-decoration: underline;
   background-color: #984736;
   border-radius: 50px;
-
 }
 
 #nav-toggle {
@@ -119,15 +115,7 @@ nav .icon-burger .line {
   width: 100vw;
   height: 100%;
 }
-p{
-  padding-top: 1%;
-  font-size: 20px;
-  letter-spacing: 0.5px;
-}
-h1{
-  text-decoration: 3px underline;
-  text-decoration-color: #E59866;
-}
+
 /*SHOWCASE*/
 #showcase {
   display: flex;
@@ -140,16 +128,16 @@ h1{
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  justify-content: center; /*horizontal alignment*/
-  align-items: center; /*vertical alignment*/
+  justify-content: center; 
+  align-items: center; 
 }
 
-h2 {
+h1 {
   color: #000;
-  font-size: 50px;
-  line-height: 1em;
+  font-size: 25px;
+  line-height: 0.5em;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   text-transform: uppercase;
   justify-content: space-around;
   align-items: center;
@@ -159,59 +147,69 @@ h2 {
   border: 35px solid #E59866;
 }
 
-/*OURIDEA*/
-#ouridea{
+/*ABOUT*/
+p{
+  padding-top: 1%;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+h2{
+  text-decoration: underline;
+  text-decoration-color: #E59866;
+}
+
+/*CONTENT*/
+.content{
   height: inherit;
-  padding-top: 5%;
+  padding-top: 2%;
   margin-left: 15%;
   margin-right: 15%;
   line-height: 3em;
 }
 
-/*WEBSITE DESIGN*/
-#design{
-  height: inherit;
-  padding-top: 5%;
-  margin-left: 15%;
-  margin-right: 15%;
-  line-height: 3em;
-}
-
-/*ABOUT US*/
-#about{
-  height: inherit;
-  padding-top: 5%;
-  margin-left: 15%;
-  margin-right: 15%;
-  line-height: 3em;
-}
 .info{
   width: 100vw;
   height: 60%;
   display: flex;
   margin-left: -21.5%;
 }
-.info p{
-  margin-top: 15%;
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 1em;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
+
 .leftbox{
   width: 33.33%;
   align-content: center;
   text-align: center;
-  background-color: #e0a57e;
+  background-color: #E59866;
   border-radius: 75px;
   margin-left: 1%;
+  text-decoration: none;
 }
+
+.leftbox a{
+ text-decoration: none;
+}
+
 .leftbox img{
   width: 5%;
   height: 5%;
+  text-decoration: none;
 }
+
 .middlebox{
   width: 33.33%;
   align-content: center;
   text-align: center;
-  background-color: #e0a57e;
+  background-color: #E59866;
   border-radius: 75px;
+  padding-bottom: 20px;
   margin-right: 1%;
   margin-left: 1%;
 }
@@ -219,9 +217,15 @@ h2 {
   width: 33.33%;
   align-content: center;
   text-align: center;
-  background-color: #e0a57e;
+  background-color: #E59866;
   border-radius: 75px;
   margin-right: 1.5%;
+}
+
+.rightbox a{
+  color: #000;
+  text-decoration: none;
+  
 }
 
 .us{
@@ -235,12 +239,11 @@ h2 {
 }
 
 .manjpg {
-  border: 10px solid black ;
+  border: 10px solid #000 ;
   border-radius: 75px;
   margin-top: 40%;
   width: 75%;
 }
-
 
 .manroop a{
   letter-spacing: 5px;
@@ -254,7 +257,7 @@ h2 {
 }
 
 .prijpg{
-  border: 10px solid black;
+  border: 10px solid #000;
   border-radius: 75px;
   margin-top: 40%;
   width: 75%;
@@ -264,18 +267,37 @@ footer{
   background: #333;
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   margin-top: 20px;
 }
 
 @media screen and (max-width: 800px){
-  nav .logo {
-      float: none;
-      width: auto;
-      justify-content: center;
-      font-size: 14px;
-
+  
+  .logo1 {
+  display: none;
+}
+  
+.logo2 {
+ /*float: center;*/
+ width: auto;
+ justify-content: center;
   }
+
+ nav .logo2 a {
+  color: #000;
+  font-size: 14px;
+  padding: 0.75em;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  align-items: center;
+} 
+  
+ nav .logo2 img {
+  width: 40%;
+  height: 100%;
+}
+
   nav .links {
       float: right;
       position: fixed;
@@ -289,14 +311,14 @@ footer{
       flex-direction: column;
       justify-content: space evenly;
       background-color: rgba(0,0,0,8);
-      opacity: 0.75;
+      opacity: 0;
       overflow: hidden;
       transition: all .5s ease-in-out;
 
   }
   nav .links a {
       font-size: 20px;
-      color: white;
+      color: #fff;
       }
 
   nav :checked ~ .links {
@@ -312,26 +334,21 @@ footer{
     transform: translateY(-10px) rotate(-225deg);
   }
   nav :checked ~ .icon-burger .line:nth-child(2){
-      opacity: 0;
+      opacity: 0.8;
   }
 
 .container{
   width: 100vw;
   height: inherit;
 }
-p{
-  padding-top: 1%;
-  font-size: 20px;
-  letter-spacing: 0px;
-}
 
   /*SHOWCASE*/
-  h2 {
+  h1 {
   color: #000;
-  font-size: 50px;
-  line-height: 1em;
+  font-size: 25px;
+  line-height: 0.5em;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   text-transform: uppercase;
   justify-content: space-around;
   align-items: center;
@@ -340,61 +357,61 @@ p{
   border-radius: 50px;
   border: 35px solid #E59866;
 }
-  /*OURIDEA*/
-#ouridea{
+  
+/*ABOUT*/
+p{
+  letter-spacing: 0px;
+}
+  
+/*CONTENT*/
+.content{
   padding-top: 10%;
   margin-left: 15%;
   margin-right: 15%;
   line-height: 2em;
 }
-
-/*WEBSITE DESIGN*/
-#design{
-  padding-top: 10%;
-  margin-left: 15%;
-  margin-right: 15%;
-  line-height: 2em;
-}
-
-/*ABOUT US*/
-#about{
-  padding-top: 10%;
-  align-self: center;
-  height: inherit;
-  line-height: 2em;
-}
+  
 .info{
   display: block;
   width: 100vw;
   height: inherit;
   align-content: center;
 }
-.info p{
-  margin-top: 5%;
-  padding-bottom: 10%;
+  
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 1em;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
+
 .leftbox{
   width: 100%;
   align-content: center;
   text-align: center;
-  background-color: #e0a57e;
+  background-color: #E59866;
   border-radius: 75px;
+  margin-left: 1%;
 }
+  
 .middlebox{
   width: 100%;
   align-content: center;
   text-align: center;
-  align-self: center;
-  background-color: #e0a57e;
+  /*align-self: center;*/
+  background-color: #E59866;
   border-radius: 75px;
+  margin-right: 1%;
 }
+  
 .rightbox{
   width: 100%;
   align-content: center;
   text-align: center;
-  background-color: #e0a57e;
+  background-color: #E59866;
   border-radius: 75px;
-  margin-left: 1%;
+  margin-right: 1.5%;
 }
 
 .us{
@@ -410,9 +427,8 @@ p{
 }
 
 .manjpg {
-  border: 10px solid black;
+  border: 10px solid #000;
   border-radius: 75px;
-
 }
 
 .manroop a{
@@ -422,12 +438,13 @@ p{
 .priti{
   width: 45%;
 }
+  
 .priti a{
   letter-spacing: 5px;
 }
 
 .prijpg{
-  border: 10px solid black;
+  border: 10px solid #000;
   border-radius: 75px;
 
 }
